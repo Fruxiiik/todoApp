@@ -53,7 +53,10 @@
         "bracketSpacing": true
       }
     ],
-    "indent": ["error", 2],
+    "no-plusplus": "off",
+//    "indent": ["error", 2],
+    "class-methods-use-this": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "no-unused-vars": 0,
     "linebreak-style": [0, "unix"],
     "quotes": ["error", "single"],
@@ -61,14 +64,22 @@
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react/static-property-placement": "off",
+    "react/prefer-exact-props": "off",
     "react/prop-types": 0,
-//    "jsx-a11y/rule-name": 2,
-    "import/no-unresolved": [2, { "caseSensitive": false }],
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/label-has-associated-control": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/named": 2,
+    "import/no-unresolved": [2, { "caseSensitive": false }],
+    "import/named": 0,
     "import/namespace": 2,
+    "import/no-cycle": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/function-component-definition": "off",
+    "import/prefer-default-export": "off",
     "import/default": 2,
-    "import/export": 2,
+    "import/export": 0, // 2 ???????????
     "import/order": [
       2,
       {
